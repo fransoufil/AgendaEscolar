@@ -1,0 +1,31 @@
+object tabglobal: Ttabglobal
+  OldCreateOrder = False
+  Height = 402
+  HorizontalOffset = 2905
+  VerticalOffset = 205
+  Width = 501
+  PPI = 96
+  object conexao: TZConnection
+    ControlsCodePage = cCP_UTF8
+    AutoEncodeStrings = True
+    Properties.Strings = (
+      'AutoEncodeStrings='
+    )
+    Connected = True
+    Port = 0
+    Database = '/home/franz/sql_Agenda_Escolar'
+    Protocol = 'sqlite-3'
+    left = 72
+    top = 48
+  end
+  object qTodos: TZQuery
+    Connection = conexao
+    Active = True
+    SQL.Strings = (
+      'SELECT * FROM tbl_eventos ORDER BY data_evento;'
+    )
+    Params = <>
+    left = 72
+    top = 144
+  end
+end

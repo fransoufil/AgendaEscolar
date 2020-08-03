@@ -1,0 +1,69 @@
+object frmEventos: TfrmEventos
+  Left = 2279
+  Height = 464
+  Top = 207
+  Width = 1516
+  Caption = 'AGENDA ESCOLAR - EVENTOS'
+  ClientHeight = 464
+  ClientWidth = 1516
+  Color = clBlue
+  Position = poScreenCenter
+  LCLVersion = '2.0.8.0'
+  object Calendar1: TCalendar
+    Left = 24
+    Height = 312
+    Top = 24
+    Width = 440
+    DateTime = 44046
+    TabOrder = 0
+  end
+  object DBGrid1: TDBGrid
+    Left = 848
+    Height = 304
+    Top = 24
+    Width = 584
+    AlternateColor = clSilver
+    AutoFillColumns = True
+    Color = clWhite
+    Columns = <>
+    DataSource = dsEventos
+    Font.Height = -11
+    Font.Name = 'Sans'
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Left = 32
+    Height = 19
+    Top = 391
+    Width = 60
+    Caption = 'Usuário'
+    Font.Color = clWhite
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 368
+    Height = 19
+    Top = 352
+    Width = 84
+    Caption = 'Data Atual'
+    Font.Color = clWhite
+    ParentColor = False
+    ParentFont = False
+  end
+  object btnVoltar: TButton
+    Left = 1357
+    Height = 25
+    Top = 416
+    Width = 75
+    Caption = 'Voltar'
+    OnClick = btnVoltarClick
+    TabOrder = 2
+  end
+  object dsEventos: TDataSource
+    DataSet = tabglobal.qTodos
+    left = 888
+    top = 360
+  end
+end
