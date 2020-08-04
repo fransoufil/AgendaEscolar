@@ -48,18 +48,21 @@
         <Filename Value="u_login.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmLogin"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
       </Unit1>
       <Unit2>
         <Filename Value="u_eventos.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmEventos"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
       </Unit2>
       <Unit3>
         <Filename Value="u_tabglobal.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="tabglobal"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
       </Unit3>
     </Units>

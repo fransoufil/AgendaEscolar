@@ -6,7 +6,7 @@ object frmLogin: TfrmLogin
   Caption = 'AGENDA ESCOLAR - LOGIN'
   ClientHeight = 244
   ClientWidth = 386
-  Color = clBlue
+  Color = clSkyBlue
   Position = poScreenCenter
   LCLVersion = '2.0.8.0'
   object Label1: TLabel
@@ -15,7 +15,7 @@ object frmLogin: TfrmLogin
     Top = 50
     Width = 64
     Caption = 'Usuário:'
-    Font.Color = clWhite
+    Font.Color = clBlack
     ParentColor = False
     ParentFont = False
   end
@@ -25,11 +25,11 @@ object frmLogin: TfrmLogin
     Top = 104
     Width = 52
     Caption = 'Senha:'
-    Font.Color = clWhite
+    Font.Color = clBlack
     ParentColor = False
     ParentFont = False
   end
-  object Edit1: TEdit
+  object txtUsuario: TEdit
     Left = 112
     Height = 29
     Top = 40
@@ -38,7 +38,7 @@ object frmLogin: TfrmLogin
     TabOrder = 0
     Text = 'admin'
   end
-  object Edit2: TEdit
+  object txtSenha: TEdit
     Left = 112
     Height = 29
     Top = 96
@@ -572,5 +572,15 @@ object frmLogin: TfrmLogin
       59FFF6B561FEF6B461F2F5B564A1F9B366280000000000000000
     }
     OnClick = SpeedButton1Click
+  end
+  object BitBtn1: TBitBtn
+    Left = 336
+    Height = 30
+    Top = 202
+    Width = 43
+    Caption = 'FIM'
+    Color = clRed
+    OnClick = BitBtn1Click
+    TabOrder = 2
   end
 end

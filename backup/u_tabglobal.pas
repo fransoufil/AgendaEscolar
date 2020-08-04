@@ -5,10 +5,15 @@ unit u_tabglobal;
 interface
 
 uses
-  Classes, SysUtils;
+  Classes, SysUtils, ZConnection, ZDataset;
 
 type
-  TDataModule1 = class(TDataModule)
+
+  { Ttabglobal }
+
+  Ttabglobal = class(TDataModule)
+    conexao: TZConnection;
+    qTodos: TZQuery;
   private
 
   public
@@ -16,7 +21,7 @@ type
   end;
 
 var
-  DataModule1: TDataModule1;
+  tabglobal: Ttabglobal;
 
 implementation
 

@@ -1,15 +1,16 @@
 object frmEventos: TfrmEventos
-  Left = 2279
+  Left = 2250
   Height = 464
-  Top = 207
-  Width = 1516
+  Top = 282
+  Width = 1464
   Caption = 'AGENDA ESCOLAR - EVENTOS'
   ClientHeight = 464
-  ClientWidth = 1516
+  ClientWidth = 1464
   Color = clBlue
+  OnActivate = FormActivate
   Position = poScreenCenter
   LCLVersion = '2.0.8.0'
-  object Calendar1: TCalendar
+  object calendarioData: TCalendar
     Left = 24
     Height = 312
     Top = 24
@@ -32,7 +33,7 @@ object frmEventos: TfrmEventos
     ParentFont = False
     TabOrder = 1
   end
-  object Label1: TLabel
+  object lblUsuario: TLabel
     Left = 32
     Height = 19
     Top = 391
@@ -42,12 +43,12 @@ object frmEventos: TfrmEventos
     ParentColor = False
     ParentFont = False
   end
-  object Label2: TLabel
-    Left = 368
+  object lblDataSelecionada: TLabel
+    Left = 328
     Height = 19
     Top = 352
-    Width = 84
-    Caption = 'Data Atual'
+    Width = 135
+    Caption = 'Data Selecionada'
     Font.Color = clWhite
     ParentColor = False
     ParentFont = False
@@ -60,6 +61,16 @@ object frmEventos: TfrmEventos
     Caption = 'Voltar'
     OnClick = btnVoltarClick
     TabOrder = 2
+  end
+  object lblData: TLabel
+    Left = 184
+    Height = 19
+    Top = 392
+    Width = 37
+    Caption = 'Data'
+    Font.Color = clWhite
+    ParentColor = False
+    ParentFont = False
   end
   object dsEventos: TDataSource
     DataSet = tabglobal.qTodos

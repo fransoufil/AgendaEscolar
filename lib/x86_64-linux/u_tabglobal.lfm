@@ -1,19 +1,19 @@
 object tabglobal: Ttabglobal
   OldCreateOrder = False
   Height = 402
-  HorizontalOffset = 2905
-  VerticalOffset = 205
+  HorizontalOffset = 2704
+  VerticalOffset = 491
   Width = 501
   PPI = 96
   object conexao: TZConnection
     ControlsCodePage = cCP_UTF8
     AutoEncodeStrings = True
     Properties.Strings = (
-      'AutoEncodeStrings='
+      'AutoEncodeStrings=ON'
     )
     Connected = True
     Port = 0
-    Database = '/home/franz/sql_Agenda_Escolar'
+    Database = '/home/franz/Documentos/001_PROGRAMAÇÃO/Lazarus/pAgendaEscolar/lib/sql_Agenda_Escolar'
     Protocol = 'sqlite-3'
     left = 72
     top = 48

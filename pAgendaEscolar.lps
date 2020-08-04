@@ -11,16 +11,18 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="28"/>
       </Unit0>
       <Unit1>
         <Filename Value="u_login.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmLogin"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <TopLine Value="17"/>
-        <CursorPos X="18" Y="41"/>
-        <UsageCount Value="20"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="26"/>
+        <CursorPos X="25" Y="49"/>
+        <UsageCount Value="28"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -28,12 +30,12 @@
         <Filename Value="u_eventos.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmEventos"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="18"/>
-        <CursorPos X="13" Y="40"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="28"/>
+        <CursorPos X="52" Y="48"/>
+        <UsageCount Value="28"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit2>
@@ -41,14 +43,15 @@
         <Filename Value="u_tabglobal.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="tabglobal"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
         <EditorIndex Value="2"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="28"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit3>
     </Units>
-    <JumpHistory Count="6" HistoryIndex="5">
+    <JumpHistory Count="13" HistoryIndex="12">
       <Position1>
         <Filename Value="u_login.pas"/>
       </Position1>
@@ -68,6 +71,34 @@
       <Position6>
         <Filename Value="u_eventos.pas"/>
       </Position6>
+      <Position7>
+        <Filename Value="u_eventos.pas"/>
+        <Caret Line="43" Column="18" TopLine="17"/>
+      </Position7>
+      <Position8>
+        <Filename Value="u_eventos.pas"/>
+        <Caret Line="41" Column="2" TopLine="17"/>
+      </Position8>
+      <Position9>
+        <Filename Value="u_eventos.pas"/>
+        <Caret Line="46" Column="57" TopLine="24"/>
+      </Position9>
+      <Position10>
+        <Filename Value="u_login.pas"/>
+        <Caret Line="41" Column="18" TopLine="18"/>
+      </Position10>
+      <Position11>
+        <Filename Value="u_eventos.pas"/>
+        <Caret Line="54" Column="54" TopLine="28"/>
+      </Position11>
+      <Position12>
+        <Filename Value="u_login.pas"/>
+        <Caret Line="42" Column="23" TopLine="18"/>
+      </Position12>
+      <Position13>
+        <Filename Value="u_login.pas"/>
+        <Caret Line="44" Column="23" TopLine="19"/>
+      </Position13>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>

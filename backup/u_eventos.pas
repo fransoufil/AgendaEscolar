@@ -14,12 +14,14 @@ type
 
   TfrmEventos = class(TForm)
     btnVoltar: TButton;
-    Calendar1: TCalendar;
+    calendarioData: TCalendar;
     dsEventos: TDataSource;
     DBGrid1: TDBGrid;
-    Label1: TLabel;
-    Label2: TLabel;
+    lblUsuario: TLabel;
+    lblDataSelecionada: TLabel;
+    lblData: TLabel;
     procedure btnVoltarClick(Sender: TObject);
+    procedure FormActivate(Sender: TObject);
   private
 
   public
@@ -38,6 +40,12 @@ implementation
 procedure TfrmEventos.btnVoltarClick(Sender: TObject);
 begin
  Self.Close;
+end;
+
+procedure TfrmEventos.FormActivate(Sender: TObject);
+begin
+    lblData.Caption:=FormatDateTime('dd/mm/yyyy', Date);
+    lblDataSelecionada.Caption:=calendarioData.Date;
 end;
 
 end.
