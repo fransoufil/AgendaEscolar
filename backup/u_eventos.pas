@@ -21,6 +21,7 @@ type
     lblDataSelecionada: TLabel;
     lblData: TLabel;
     procedure btnVoltarClick(Sender: TObject);
+    procedure calendarioDataDayChanged(Sender: TObject);
     procedure FormActivate(Sender: TObject);
   private
 
@@ -40,6 +41,11 @@ implementation
 procedure TfrmEventos.btnVoltarClick(Sender: TObject);
 begin
  Self.Close;
+end;
+
+procedure TfrmEventos.calendarioDataDayChanged(Sender: TObject);
+begin
+  lblDataSelecionada.Caption:=calendarioData.Date;
 end;
 
 procedure TfrmEventos.FormActivate(Sender: TObject);

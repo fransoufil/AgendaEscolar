@@ -1,7 +1,7 @@
 object frmEventos: TfrmEventos
-  Left = 2250
+  Left = 2254
   Height = 464
-  Top = 282
+  Top = 308
   Width = 1464
   Caption = 'AGENDA ESCOLAR - EVENTOS'
   ClientHeight = 464

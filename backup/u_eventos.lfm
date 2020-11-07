@@ -16,6 +16,7 @@ object frmEventos: TfrmEventos
     Top = 24
     Width = 440
     DateTime = 44046
+    OnDayChanged = calendarioDataDayChanged
     TabOrder = 0
   end
   object DBGrid1: TDBGrid

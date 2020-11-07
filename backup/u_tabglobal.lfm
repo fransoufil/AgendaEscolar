@@ -1,8 +1,8 @@
 object tabglobal: Ttabglobal
   OldCreateOrder = False
   Height = 402
-  HorizontalOffset = 2704
-  VerticalOffset = 491
+  HorizontalOffset = 3206
+  VerticalOffset = 217
   Width = 501
   PPI = 96
   object conexao: TZConnection
@@ -22,7 +22,7 @@ object tabglobal: Ttabglobal
     Connection = conexao
     Active = True
     SQL.Strings = (
-      'SELECT * FROM tbl_eventos ORDER BY data_evento;'
+      'SELECT nome_evento as evento, data_evento as data, descricao_evento as decricao, data_limite as limite FROM tbl_eventos ORDER BY data_evento;'
     )
     Params = <>
     left = 72

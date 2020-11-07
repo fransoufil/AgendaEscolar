@@ -1,7 +1,7 @@
 object frmLogin: TfrmLogin
-  Left = 2382
+  Left = 2386
   Height = 244
-  Top = 192
+  Top = 218
   Width = 386
   Caption = 'AGENDA ESCOLAR - LOGIN'
   ClientHeight = 244

@@ -1,7 +1,7 @@
 object frmLogin: TfrmLogin
-  Left = 2382
+  Left = 2386
   Height = 244
-  Top = 192
+  Top = 218
   Width = 386
   Caption = 'AGENDA ESCOLAR - LOGIN'
   ClientHeight = 244
@@ -576,7 +576,7 @@ object frmLogin: TfrmLogin
   object BitBtn1: TBitBtn
     Left = 336
     Height = 30
-    Top = 208
+    Top = 202
     Width = 43
     Caption = 'FIM'
     Color = clRed
